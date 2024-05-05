@@ -157,7 +157,7 @@
   float: left;
   width: 33.333333333%;
   height: 33.333333333%;
-  border-width: 5px;
+  border-width: 5px !important;
   border-color: #fff;
   -webkit-transition: background-color 0.1s;
   -moz-transition: background-color 0.1s;
@@ -186,13 +186,13 @@
 
 .square.left {
   clear: both;
-  border-right-style: solid;
+  border-right-style: solid !important;
   border-left-style: unset;
   border-bottom-style: unset;
 }
 
 .square.right {
-  border-left-style: solid;
+  border-left-style: solid !important;
   border-right-style: unset;
 }
 
